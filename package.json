@@ -1,0 +1,18 @@
+{
+  "name": "brandextender-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "abhishes007@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "synpress run": "synpress run --config baseUrl=https://brandextender.io/demo/ --reporter mochawesome --env -f .env",
+    "sypress open": "synpress open"
+  },
+  "devDependencies": {
+    "@synthetixio/synpress": "2.4.1"
+  },
+  "resolutions": {
+    "**/underscore": "^1.13.6"
+  }
+}
