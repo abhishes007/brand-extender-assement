@@ -1,0 +1,5 @@
+NETWORK_NAME=goerli
+SECRET_WORDS=Wallet-Secret-Words
+PRIVATE_KEY=Wallet-Private-Key
+PASSWORD=Wallet-Password
+SKIP_METAMASK_SETUP = true

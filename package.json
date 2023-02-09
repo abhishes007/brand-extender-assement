@@ -6,11 +6,12 @@
   "author": "abhishes007@gmail.com",
   "license": "MIT",
   "scripts": {
-    "synpress run": "synpress run --config baseUrl=https://brandextender.io/demo/ --reporter mochawesome --env -f .env",
+    "synpress run": "synpress run --config baseUrl=https://brandextender.io/demo/ --reporter mochawesome --env -f .env -cf synpress.config.js",
     "sypress open": "synpress open"
   },
   "devDependencies": {
-    "@synthetixio/synpress": "2.4.1"
+    "@synthetixio/synpress": "2.4.1",
+    "cypress-mochawesome-reporter": "^3.2.3"
   },
   "resolutions": {
     "**/underscore": "^1.13.6"
