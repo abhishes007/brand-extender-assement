@@ -2,5 +2,7 @@
 node_modules
 # Ignore files related to API keys and passwords
 .env
-
+# Ignore lock file
 yarn.lock
+# Ignore mochawesome report folder
+mochawesome-report
